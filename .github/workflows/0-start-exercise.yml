@@ -14,6 +14,7 @@ env:
   STEP_1_FILE: ".github/steps/1-step.md"
 
 jobs:
+
   start_exercise:
     name: Start Exercise
     uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.8.1
